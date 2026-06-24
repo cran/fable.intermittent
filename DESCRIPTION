@@ -1,6 +1,6 @@
 Package: fable.intermittent
 Title: Forecasting Models for Intermittent Time Series
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(person(given  ="Stefano", 
              family ="Damato",
@@ -36,21 +36,22 @@ Encoding: UTF-8
 LazyData: true
 LinkingTo: Rcpp, RcppArmadillo
 Depends: R (>= 4.1.0), fabletools (>= 0.6.0)
-Imports: tsibble (>= 1.0.0), distributional (>= 0.3.0), nloptr (>=
-        2.0.0), rlang (>= 1.0.0), Rcpp (>= 1.0.0)
-Suggests: dplyr, testthat (>= 3.3.0), tweedie, ggtime, ggplot2, tibble,
-        knitr, rmarkdown
+Imports: tsibble (>= 1.0.0), distributional (>= 0.7.1), nloptr (>=
+        2.0.0), rlang (>= 1.0.0), Rcpp (>= 1.0.0), generics (>= 0.1.0),
+        tibble (>= 3.0.0)
+Suggests: dplyr, testthat (>= 3.3.0), tweedie, ggtime, ggplot2, knitr,
+        rmarkdown
 VignetteBuilder: knitr
 URL: https://github.com/StefanoDamato/fable.intermittent
 BugReports: https://github.com/StefanoDamato/fable.intermittent/issues
 Config/roxygen2/version: 8.0.0
 RoxygenNote: 7.3.3
 NeedsCompilation: yes
-Packaged: 2026-06-09 07:19:12 UTC; stefano.damato
+Packaged: 2026-06-24 22:20:50 UTC; stefano.damato
 Author: Stefano Damato [aut, cre, cph] (ORCID:
     <https://orcid.org/0009-0001-0225-3736>),
   Lorenzo Zambon [aut] (ORCID: <https://orcid.org/0000-0002-8939-993X>),
   Dario Azzimonti [aut] (ORCID: <https://orcid.org/0000-0001-5080-3061>)
 Maintainer: Stefano Damato <stefanodamato128@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-06-18 10:00:02 UTC
+Date/Publication: 2026-06-24 22:40:02 UTC
